@@ -1,0 +1,23 @@
+name: Base theme drupal 8
+description: Drupal 8 base theme with gulp and bootstrap4
+type: theme
+core: 8.x
+base: stable
+
+libraries:
+  - base_theme_drupal8/global-css
+  - base_theme_drupal8/global-js
+
+regions:
+  main_navigation: 'Main navigation'
+  header: 'Header'
+  highlighted: 'Highlighted'
+  content: 'Main content'
+  sidebar: 'Side bar'
+  footer: 'Footer'
+
+libraries-extend:
+
+stylesheets-remove:
+
+libraries-override:
