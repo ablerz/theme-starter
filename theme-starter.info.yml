@@ -5,8 +5,8 @@ core: 8.x
 base: stable
 
 libraries:
-  - base_theme_drupal8/global-css
-  - base_theme_drupal8/global-js
+  - theme-starter/global-css
+  - theme-starter/global-js
 
 regions:
   main_navigation: 'Main navigation'
