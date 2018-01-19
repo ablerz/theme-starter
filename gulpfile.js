@@ -62,10 +62,10 @@ gulp.task('script', function () {
 
 // Static Server + watching scss/html files
 
-gulp.task('watch', ['sass', 'script', 'imagemin'], function() {
+gulp.task('watch', ['sass', 'script'], function() {
 
     browserSync.init({
-        proxy: 'yourlocaldomainhere'
+        proxy: 'http://dev.drupalpractice'
     });
 
     gulp.watch('./src/scss/**/*.scss', ['sass']);

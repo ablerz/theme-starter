@@ -22,14 +22,6 @@ When successful make sure you have node.js installed on your computer then you c
 npm install
 ```
 
-Edit the gulpfile by added yourlocaldomain at proxy at gulp watch task
-
-```
-   browserSync.init({
-        proxy: 'yourlocaldomainhere'
-    });
-```
-
 Now you can make use of gulp by entering the follow line in the terminal and your up and running.
 
 ```

@@ -1,0 +1,17 @@
+.main-layout {
+  overflow: hidden;
+  margin: 50px 0px 50px 0px;
+}
+
+.layout-content {
+  background-color: #CCCCCC;
+  min-width: 100%;
+  display: block;
+  float: right;
+  padding: 50px;
+
+  @media (min-width: 992px) {
+    min-width: 75%;
+  }
+}
+
