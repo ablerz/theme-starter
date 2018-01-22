@@ -32,9 +32,6 @@ gulp watch
  You can make edit, create or remove Sass/scss and JS in the src directory. All scss and js files will be compiled in a minified version in the assets directory.
  You dont have to worry about dependencies they are already added with npm and compiled. Such as Jquerie and popper.js, which is needed for bootstrap. 
 
-## Deployment
-
-You can use the web directory to deploy it to your webhosting.
 
 ## Built With
 
