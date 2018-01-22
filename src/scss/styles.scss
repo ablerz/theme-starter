@@ -1,4 +1,12 @@
-@import "partials/_global";
+// Custom variables and mixins
+@import "base/variables";
+@import "base/mixins";
+
+//Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+//Custom scss
+@import "base/global";
 @import "partials/_header";
 @import "partials/_navigation";
 @import "partials/_content";

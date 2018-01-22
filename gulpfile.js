@@ -25,8 +25,7 @@ gulp.task('imagemin', function () {
 // Compile sass into CSS & auto-inject into browsers
 
 gulp.task('sass', function() {
-    return gulp.src(['./node_modules/bootstrap/scss/bootstrap.scss',
-        './src/scss/**/*.scss'])
+    return gulp.src(['./src/scss/**/*.scss'])
         .pipe(sourcemaps.init())
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
         .pipe(autoprefixer('last 2 version'))
