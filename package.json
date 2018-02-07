@@ -1,14 +1,20 @@
 {
-  "name": "basetemplate",
+  "name": "theme-starter",
   "version": "1.0.0",
-  "description": "base template static website",
+  "description": "Theme starter for drupal projects. With bootstrap 4, gulp, sass and browser sync",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp"
   },
+  "keywords": [
+    "bootstrap",
+    "sass",
+    "gulp",
+    "browser-sync"
+  ],
   "author": "Jeremy-Percy Batten",
-  "license": "ISC",
-  "repository": "https://github.com/JeremyPercy/base-gulp-bootstrap4-template.git",
+  "license": "MIT",
+  "repository": "https://github.com/ablerz/theme-starter",
   "dependencies": {
     "bootstrap": "^4.0.0-beta.3"
   },

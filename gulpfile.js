@@ -9,7 +9,6 @@ var gulp        = require('gulp'),
     minify = require("gulp-babel-minify"),
     concat = require('gulp-concat');
 
-
 // task Imagemin, Compile images
 
 gulp.task('imagemin', function () {
@@ -61,10 +60,10 @@ gulp.task('script', function () {
 
 // Static Server + watching scss/html files
 
-gulp.task('watch', ['sass', 'script'], function() {
+gulp.task('default', ['sass', 'script'], function() {
 
     browserSync.init({
-        proxy: 'http://dev.drupalpractice'
+        proxy: 'http://yourdevsite'
     });
 
     gulp.watch('./src/scss/**/*.scss', ['sass']);
