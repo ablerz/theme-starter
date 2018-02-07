@@ -5,8 +5,8 @@ core: 8.x
 base: stable
 
 libraries:
-  - theme-starter/global-css
-  - theme-starter/global-js
+  - yourthemename/global-css
+  - yourthemename/global-js
 
 regions:
   main_navigation: 'Main navigation'

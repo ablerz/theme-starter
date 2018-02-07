@@ -6,9 +6,9 @@
 *Thumbs.db
 
 ### Build ###
-web/assets/css
-web/assets/js
-web/assets/images
+/assets/css
+/assets/js
+/assets/images
 
 ### Dev ###
 config.codekit
