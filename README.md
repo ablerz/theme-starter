@@ -17,7 +17,11 @@ Open terminal, make sure your in the right directory. Use git clone https://gith
 ```
 
 When successful make sure you have node.js installed on your computer then you can start working on the project by using the following commandline.
-
+first install gulp globally:
+```
+npm install gulp -g
+```
+then:
 ```
 npm install
 ```
@@ -25,12 +29,12 @@ npm install
 Now you can make use of gulp by entering the follow line in the terminal and your up and running.
 
 ```
-gulp watch
+npm start
 ```
 
 ## How to
  You can make edit, create or remove Sass/scss and JS in the src directory. All scss and js files will be compiled in a minified version in the assets directory.
- You dont have to worry about dependencies they are already added with npm and compiled. Such as Jquerie and popper.js, which is needed for bootstrap. 
+ You dont have to worry about dependencies they are already added with npm and compiled. Such as Jquery, which is needed for bootstrap. 
 
 
 ## Built With
